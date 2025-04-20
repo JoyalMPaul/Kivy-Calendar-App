@@ -16,6 +16,7 @@ I developed a small app using Kivy that features an interactive calendar, which 
 2. Activate the virtual environment by running: kivy_venv/scripts/activate
 3. Install the required libraries by running: pip install -r requirements.txt
 4. Launch the application by executing: python main.py
+5. Type into boxes, and press save button when done. Shaded boxes means days that already passed.
 
 ## Updates
 
