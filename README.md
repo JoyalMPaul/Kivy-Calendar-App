@@ -13,7 +13,7 @@ I developed a small app using Kivy that features an interactive calendar, which 
 ## How to Use
 
 1. Open your preferred code editor and navigate to the "Kivy Calendar App/kivy_application" directory
-2. Activate the virtual environment by running: kivy/scripts/activate
+2. Activate the virtual environment by running: kivy_venv/scripts/activate
 3. Install the required libraries by running: pip install -r requirements.txt
 4. Launch the application by executing: python main.py
 
