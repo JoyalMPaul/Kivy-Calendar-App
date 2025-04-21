@@ -1,18 +1,36 @@
-<FloatLayout>:
+# file: empty.kv
+
+BoxLayout:
+    orientation: 'vertical'
+    padding: [10, 20, 10, 20]
+    spacing: 15
+    
     Button:
-        text: "Front"
+        text: 'This button does nothing'
         size_hint: None, None
-        size: "200dp", "50dp"
-        pos_hint: {"center_x": 0.5, "center_y": 0.8}
-    
+        size: 200, 50
+        on_press: pass  # Does nothing when pressed
+        
+    Label:
+        text: 'This label does nothing'
+        size_hint: None, None
+        size: 300, 50
+        color: 0, 0, 0, 1  # Black text
+        
     TextInput:
-        hint_text: "Enter Here"
+        hint_text: 'This input does nothing'
+        multiline: False
         size_hint: None, None
-        size: "300dp", "40dp"
-        pos_hint: {"center_x": 0.5, "center_y": 0.5}
-    
-    TextInput:
-        hint_text: "Back"
-        size_hint: None, None
-        size: "300dp", "40dp"
-        pos_hint: {"center_x": 0.5, "center_y": 0.3}
+        size: 300, 40
+        on_text_validate: pass  # Does nothing when the user presses enter
+        
+    BoxLayout:
+        orientation: 'horizontal'
+        
+        Button:
+            text: 'Inner Button 1'
+            on_press: pass  # Does nothing
+        
+        Button:
+            text: 'Inner Button 2'
+            on_press: pass  # Does nothing
