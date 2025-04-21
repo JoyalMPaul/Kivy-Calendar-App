@@ -160,7 +160,7 @@ class Notepad(Screen):
         wm.current = "main"       
   
 
-# Initializing and running app using screenmanager  
+# Initializing and naming all screens using screenmanager  
 wm = ScreenManager()
 mw = MainWindow(name = "main")
 wm.add_widget(mw)
@@ -168,6 +168,7 @@ np = Notepad(name = "notepad")
 wm.add_widget(np)
 
 
+# Runs app using screenmanager
 class CalendarApp(App):
     def build(self):
         return wm
