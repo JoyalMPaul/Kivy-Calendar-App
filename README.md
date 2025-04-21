@@ -12,10 +12,10 @@ I developed a small app using Kivy that features an interactive calendar, which 
 
 ## How to Use
 
-1. Open your preferred code editor and navigate to the "Kivy Calendar App/kivy_application" directory
-2. Activate the virtual environment by running: kivy_venv/scripts/activate
-3. Install the required libraries by running: pip install -r requirements.txt
-4. Launch the application by executing: python main.py
+1. Open your preferred code editor and navigate down using `cd Kivy Calendar App/kivy_application` to enter directory
+2. Activate the virtual environment by running: `venv/scripts/activate` (If not working, use: `Unblock-File -Path ".\venv\Scripts\Activate.ps1"`)
+3. Install the required libraries by running: `pip install -r requirements.txt`
+4. Launch the application by executing: `python main.py`
 5. Type into boxes, and press save button when done. Shaded boxes means days that already passed.
 
 ## Updates
