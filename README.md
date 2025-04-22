@@ -1,4 +1,4 @@
-# Kivy Calendar App
+# 🗓️ Kivy Calendar App
 
 ## Project Description
 
